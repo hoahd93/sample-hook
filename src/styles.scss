@@ -1,0 +1,33 @@
+:root{
+    --color: #df2525;
+}
+.s-display-flex {
+    display: flex;
+  }
+  
+  .s-flex-row {
+    flex-direction: row;
+  }
+  
+  .s-flex-column {
+    flex-direction: column;
+  }
+  
+  .s-align-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .s-justify-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .s-custom-color {
+      color: var(--color);
+  }
+  .s-button {
+      width: 100px;
+      height: 40px;
+      margin: 10px;
+  }

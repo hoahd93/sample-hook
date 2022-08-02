@@ -1,0 +1,39 @@
+
+.s-aimation {
+  // animation: button-animation 2s infinite;
+  margin: 5px;
+  width: 100px;
+  height: 50px;
+  background-color: blue;
+  position: relative;
+}
+
+.s-triangle::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 100px;
+  border-top: 25px solid transparent;
+  border-left: 50px solid blue;
+  border-bottom: 25px solid transparent;
+}
+.s-aimation:hover {
+  animation: button-animation 1s infinite;
+}
+
+@keyframes button-animation {
+  0% {
+    // transform: rotate(0deg);
+    transform: translateX(0px);
+  }
+  
+  //   50% {
+  //     transform: translateX(10px);
+  //   }
+
+  100% {
+    transform: translateX(50px);
+    // transform: rotate(180deg);
+  }
+}

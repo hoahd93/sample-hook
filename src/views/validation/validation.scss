@@ -1,0 +1,24 @@
+.textarea {
+  margin: 50px;
+  width: 500px;
+//   height: 200px;
+  border: 1px solid rgb(143, 236, 131);
+  border-radius: 5px;
+}
+.textarea::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #c1c1c1;
+}
+.textarea::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f1f1f1;
+  border-radius: 5px;
+}
+// .textarea::-webkit-scrollbar-track-piece {
+//   // box-shadow: inset 0 0 5px grey;
+//   background-color: red;
+//   border-radius: 5px;
+// }
+.textarea::-webkit-scrollbar {
+  width: 10px;
+  // border-radius: 5px;
+}
